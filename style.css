@@ -187,7 +187,7 @@ footer p{
     font-size: 15px;
     text-align: center;
 }
-@media (min-width: 785px){
+@media (min-width: 720px){
     header .container{
         flex-direction: row;
         justify-content: space-between;
