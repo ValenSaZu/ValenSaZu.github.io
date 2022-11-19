@@ -14,7 +14,7 @@ color: #94618e;
 text-align: center;
 }
 h3{ font-size: 40px;}
-p{ font-size: 30px;}
+p{ font-size: 20px;}
 button{
     font-size: 35px;
     font-weight: bold;
@@ -112,6 +112,15 @@ nav a:hover{
     background-color: rgb(216, 211, 221);
     padding: 50px 70px;
 }
+#dibujo .img-dibujo{
+    background-image: url("img/dibujo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin: auto;
+}
 #fotografia{
     text-align: end;
     padding: 50px 70px;
@@ -187,7 +196,8 @@ footer p{
     font-size: 15px;
     text-align: center;
 }
-@media (min-width: 720px){
+
+@media (min-width: 985px){
     header .container{
         flex-direction: row;
         justify-content: space-between;
@@ -196,5 +206,19 @@ footer p{
         flex-direction: row;
         padding-bottom: 0px;
         padding-right: 20px;
+    }
+    #biografia .containerbio{
+        display: flex;
+    }
+    #biografia .img-yo{
+        background-position: center center;
+    }
+    #biografia .textobio{
+        width: 50%;
+        text-align: initial;
+        padding: 0px 50px;
+    }
+    #contacto{
+        padding: 200px 100px;
     }
 }
