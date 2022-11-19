@@ -15,7 +15,6 @@ text-align: center;
 }
 h3{ font-size: 40px;}
 p{ font-size: 30px;}
-
 button{
     font-size: 35px;
     font-weight: bold;
@@ -27,12 +26,10 @@ button{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
 .container{
     max-width: 1400px;
     margin:auto;
 }
-
 header{
     background-color: rgb(10, 10, 10);
 }
@@ -63,7 +60,6 @@ header a{
 nav a:hover{
     color: #94618e;
 }
-
 #first{
     display: flex;
     align-items: center;
@@ -87,9 +83,17 @@ nav a:hover{
 }
 #biografia{
     text-align: center;
-    padding: 200px 100px;
+    padding: 200px 50px;
     color: black;
-
+}
+#biografia .img-yo{
+    background-image: url("img/bio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    display:block;
+    margin: auto;
 }
 #Hobbies h2{
     padding: 0 65px;
@@ -154,6 +158,10 @@ nav a:hover{
     color: #f8eee7;
     border-radius: 60px;
 }
+#compañeres a:hover{
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
 #contacto{
     display: flex;
     flex-direction: column;
@@ -177,4 +185,16 @@ nav a:hover{
 }
 footer p{
     font-size: 15px;
+    text-align: center;
+}
+@media (min-width: 785px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0px;
+        padding-right: 20px;
+    }
 }
