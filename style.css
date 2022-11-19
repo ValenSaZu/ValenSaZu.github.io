@@ -70,7 +70,6 @@ nav a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 100vh;
     color: rgb(228, 228, 228);
     background-image: linear-gradient(
         0deg,
@@ -126,7 +125,7 @@ nav a:hover{
     background-color: #94618e;
 }
 #Carrera h2{
-    color: rgb(235, 235, 235);
+    color: rgb(245, 245, 245);
 }
 #ccomp{
     background-color: rgb(216, 211, 221);
@@ -139,6 +138,41 @@ nav a:hover{
     padding: 50px 70px;
     border-radius: 60px;
     padding-top: 50px;
+}
+#compañeres{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 200px 100px;
+}
+#compañeres a{
+    text-decoration: none;
+    background-color: #94618e;
+    padding: 30px 40px;
+    margin: 25px 100px;
+    color: #f8eee7;
+    border-radius: 60px;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 500px 100px;
+    text-align: center;
+    background-color: #94618e;
+    background-size: cover;
+}
+#contacto h2{
+    color: #f8eee7;
+}
+#contacto a{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f8eee7;
+    padding: 30px 40px;
+    margin: 25px 30px;
+    color: #94618e;
+    border-radius: 60px;
 }
 footer p{
     font-size: 15px;
