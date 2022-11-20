@@ -125,13 +125,40 @@ nav a:hover{
     text-align: end;
     padding: 50px 70px;
 }
+#fotografia .img-fotografia{
+    background-image: url("img/fotografia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin: auto;
+}
 #videojuegos{
     background-color: rgb(216, 211, 221);
     padding: 50px 70px;
 }
+#videojuegos .img-lol{
+    background-image: url("img/lol.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width:600px;
+    display: block;
+    margin: auto;
+}
 #mas{
     text-align: end;
     padding: 50px 70px;
+}
+#mas .img-masinfo{
+    background-image: url("img/mas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    display: block;
+    margin: auto;
 }
 #Carrera{
     padding: 200px 100px;
@@ -147,11 +174,28 @@ nav a:hover{
     border-radius: 60px;
     margin: 100px 0px;
 }
+#ccomp .img-ccomp{
+    background-image: url("img/ccomp.jpg");
+    background-repeat: no-repeat;
+    height: 285px;
+    width: 285px;
+    display: block;
+    margin: auto;
+    border-radius: 180px;
+}
 #universidad{
     background-color: rgb(216, 211, 221);
     padding: 50px 70px;
     border-radius: 60px;
     padding-top: 50px;
+}
+#universidad .img-ucsp{
+    background-image: url("img/ucsp.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
 }
 #compañeres{
     display: flex;
@@ -198,6 +242,9 @@ footer p{
 }
 
 @media (min-width: 985px){
+    h2{
+        padding: 0px 50px;
+    }
     header .container{
         flex-direction: row;
         justify-content: space-between;
@@ -207,7 +254,7 @@ footer p{
         padding-bottom: 0px;
         padding-right: 20px;
     }
-    #biografia .containerbio{
+    .containerlmnt{
         display: flex;
     }
     #biografia .img-yo{
@@ -220,5 +267,47 @@ footer p{
     }
     #contacto{
         padding: 200px 100px;
+    }
+    #dibujo .img-dibujo{
+        background-image: url("img/dibujo2pt2.jpg");
+        background-size: 600px 600px;
+        background-position: center center;
+
+    }
+    #dibujo .textdib{
+        width: 50%;
+        padding: 0px 50px;
+    }
+    #fotografia .img-fotografia{
+        background-position: center center;
+    }
+    #fotografia .textfoto{
+        width: 50%;
+        padding: 0px 50px;
+    }
+    #videojuegos .img-lol{
+        background-position: center center;
+    }
+    #videojuegos .textvideo{
+        width: 50%;
+        padding: 0px 50px;
+    }
+    #mas .img-masinfo{
+        background-position: center center;
+    }
+    #mas .textmas{
+        width: 50%;
+        padding: 0px 50px;
+    }
+    #ccomp p{
+        padding: 100px 0px;
+    }
+    #ccomp{
+        margin: 0px 50px;
+        padding: 50px;
+    }
+    #universidad{
+        margin: 0px 50px;
+        padding: 50px;
     }
 }
